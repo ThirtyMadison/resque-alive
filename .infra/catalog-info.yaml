@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    github.com/project-slug: ThirtyMadison/resque-alive
+  description: Resque Alive
+  labels:
+    has_frontend: 'False'
+  links:
+  - icon: github
+    title: Github
+    url: https://github.com/ThirtyMadison/resque-alive
+  name: resque-alive
+  tags:
+  - ruby
+spec:
+  dependsOn: []
+  lifecycle: production
+  type: service
